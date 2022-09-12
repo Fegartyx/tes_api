@@ -1,3 +1,3 @@
-# Testing Call API
+## Testing Call API
 
-### Using Public API Reqres.in
+#### Using Public API Reqres.in

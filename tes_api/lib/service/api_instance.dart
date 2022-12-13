@@ -24,7 +24,7 @@ class ApiInstance {
     return UserModel.fromJson(jsonObj);
   }
 
-  Future<List<UserModel>> getAllUser({String page = '1'}) async {
+  Future<List<UserModel>> getAllUser({String? page = '1'}) async {
     String getApi = '$apiUrl/users?page=$page';
     var apiResult = await http.get(Uri.parse(getApi));
     var jsonObj = json.decode(apiResult.body)['data'];

@@ -63,6 +63,7 @@ class _MyWidgetState extends State<MyWidget> {
               actions: [
                 TextButton(
                     onPressed: () {
+                      setState(() {});
                       Navigator.pop(context);
                     },
                     child: Text("Ok"))
